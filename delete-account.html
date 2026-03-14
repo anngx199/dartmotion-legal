@@ -1,0 +1,90 @@
+<!-- delete-account.html -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dart Motion — Account & Data Deletion</title>
+  <style>
+    :root { --bg:#0b0b0c; --card:#121215; --text:#f2f2f2; --muted:#b8b8b8; --accent:#ff6a00; --line:#26262b; }
+    body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.5}
+    .wrap{max-width:900px;margin:0 auto;padding:28px 18px 60px}
+    .hero{background:linear-gradient(135deg, rgba(255,106,0,.18), rgba(18,18,21,.9));border:1px solid rgba(255,106,0,.22);border-radius:18px;padding:18px 18px}
+    h1{margin:0 0 8px;font-size:28px}
+    .sub{margin:0;color:var(--muted)}
+    .card{margin-top:14px;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px}
+    h2{margin:0 0 8px;font-size:18px}
+    ul{margin:8px 0 0 18px;color:var(--muted)}
+    code{background:#1b1b20;border:1px solid #2a2a33;padding:2px 6px;border-radius:8px;color:#fff}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .pill{display:inline-block;margin-left:8px;padding:2px 10px;border-radius:999px;border:1px solid rgba(255,106,0,.35);background:rgba(255,106,0,.12);color:var(--text);font-weight:700;font-size:12px}
+    .foot{margin-top:16px;color:var(--muted);font-size:13px}
+    .hr{height:1px;background:var(--line);margin:14px 0}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="hero">
+      <h1>Account & Data Deletion <span class="pill">Dart Motion</span></h1>
+      <p class="sub">
+        This page explains how to request deletion of your Dart Motion account and associated data.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>How to request account deletion</h2>
+      <p style="color:var(--muted);margin:0">
+        Dart Motion currently supports deletion requests via email.
+      </p>
+      <ul>
+        <li>Email: <a href="mailto:admin@dartmotion.com?subject=Delete%20my%20Dart%20Motion%20account">admin@dartmotion.com</a></li>
+        <li>Subject: <code>Delete my Dart Motion account</code></li>
+        <li>Include:
+          <ul>
+            <li>The email address you use to sign in</li>
+            <li>Your nickname (optional, helps us identify you)</li>
+            <li>If available: your user ID (UID) shown inside the app</li>
+          </ul>
+        </li>
+      </ul>
+      <div class="hr"></div>
+      <p class="foot" style="margin:0">
+        We may ask for a brief confirmation to prevent unauthorized deletion.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>What we delete</h2>
+      <ul>
+        <li>Your authentication account (Firebase Authentication)</li>
+        <li>Your profile data stored in our database (e.g., player profile)</li>
+        <li>Saved training and analysis sessions associated with your account (where applicable)</li>
+      </ul>
+      <p class="foot">
+        Important: Purchase and billing records are handled by Google Play / Apple App Store and are not stored as card or bank data by Dart Motion.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Processing time</h2>
+      <ul>
+        <li>Typical: within <b>7 business days</b></li>
+        <li>Maximum: up to <b>30 days</b> in rare cases (e.g., fraud prevention / legal requirements)</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Contact</h2>
+      <p style="color:var(--muted);margin:0">
+        For any questions about account deletion, contact
+        <a href="mailto:admin@dartmotion.com">admin@dartmotion.com</a>.
+      </p>
+    </div>
+
+    <p class="foot">
+      Last updated: 2026-03-10
+    </p>
+  </div>
+</body>
+</html>
